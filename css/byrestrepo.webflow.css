@@ -1306,6 +1306,30 @@ a {
     font-size: 14px;
   }
 
+  .selected-works {
+    grid-template-areas: "selected-works-area";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .selected-works-grid {
+    grid-template-areas: "project-category-specs project-category-specs project-category-specs"
+      "selected-work-1 selected-work-1 selected-work-1"
+      "selected-work-2 selected-work-2 selected-work-2"
+      "selected-work-3 selected-work-3 selected-work-3";
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .project-category-specs {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .section-heading {
+    font-size: 30px;
+  }
+
   .centered-container {
     text-align: left;
   }
@@ -1317,6 +1341,11 @@ a {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
+  }
+
+  .project-teaser {
+    height: 350px;
+    margin-bottom: 0px;
   }
 
   .last-p {
@@ -1491,9 +1520,59 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-7ad3d174626d-4167b805 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+
+  #w-node-01f486224b66-4167b805 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+
+  #w-node-659752e9534d-4167b805 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+
+  #w-node-0fd1726b2916-4167b805 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+
+  #w-node-8b5aa5204ba7-a5204ba7 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+}
+
+@media screen and (max-width: 479px) {
   #w-node-84d468335eb2-37dd74d8 {
     -ms-grid-column-align: center;
     justify-self: center;
+  }
+
+  #w-node-18ca981aa3a0-4167b805 {
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 3;
+    grid-column-end: 4;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
   }
 }
 
