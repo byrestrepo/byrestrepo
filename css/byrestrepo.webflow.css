@@ -1278,6 +1278,34 @@ a {
     padding-left: 0px;
   }
 
+  .intro-stage-wrapper {
+    padding: 40px;
+  }
+
+  .portfolio-name {
+    font-size: 50px;
+  }
+
+  .introduction-wrapper {
+    padding-left: 40px;
+  }
+
+  .list {
+    font-size: 18px;
+  }
+
+  .list-item-4 {
+    font-size: 18px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
+  .small-text.last-p {
+    font-size: 14px;
+  }
+
   .centered-container {
     text-align: left;
   }
@@ -1289,6 +1317,22 @@ a {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
+  }
+
+  .last-p {
+    font-size: 16px;
+  }
+
+  .section.full-height {
+    height: auto;
+  }
+
+  .simple-content {
+    padding: 100px 40px;
+  }
+
+  .link-2 {
+    font-size: 14px;
   }
 }
 
