@@ -1017,6 +1017,10 @@ a {
     text-align: left;
   }
 
+  .intro-stage-wrapper {
+    padding: 60px;
+  }
+
   .stage-grid {
     grid-template-areas: "Navigation Navigation"
       "Name Name"
@@ -1035,11 +1039,20 @@ a {
     font-size: 17px;
   }
 
+  .project-category-specs {
+    padding-right: 10%;
+    padding-left: 60px;
+  }
+
   .gallery-grid-container {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .last-p {
+    font-size: 16px;
   }
 }
 
@@ -1334,6 +1347,7 @@ a {
   }
 
   .selected-works-grid {
+    height: auto;
     grid-template-areas: "project-category-specs project-category-specs project-category-specs"
       "selected-work-1 selected-work-1 selected-work-1"
       "selected-work-2 selected-work-2 selected-work-2"
@@ -1371,6 +1385,10 @@ a {
 
   .last-p {
     font-size: 16px;
+  }
+
+  .my-picks-area {
+    height: auto;
   }
 
   .section.full-height {
