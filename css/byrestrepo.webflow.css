@@ -636,6 +636,8 @@ a {
   height: 100vh;
   margin: 0px;
   padding: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d07542), to(#151516));
+  background-image: linear-gradient(180deg, #d07542, #151516);
 }
 
 .stage-grid {
@@ -653,7 +655,7 @@ a {
 }
 
 .portfolio-name {
-  color: #151516;
+  color: #fd9c66;
   font-size: 143px;
   line-height: 1;
 }
@@ -668,7 +670,7 @@ a {
   text-align: right;
 }
 
-.list {
+.nav-list {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -722,7 +724,7 @@ a {
 
 .small-text.last-p {
   margin-bottom: 0px;
-  color: #151516;
+  color: #b48b74;
 }
 
 .brand-and-navigation {
@@ -861,7 +863,7 @@ a {
 
 .last-p {
   margin-bottom: 0px;
-  color: #151516;
+  color: #b48b74;
 }
 
 .thumbnail-caption {
@@ -874,7 +876,7 @@ a {
   display: block;
   width: 50%;
   padding: 20px;
-  background-color: #fd9c66;
+  background-color: #151516;
   font-size: 12px;
 }
 
@@ -885,6 +887,7 @@ a {
 }
 
 .teaser-wrapper {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -947,6 +950,41 @@ a {
 .black.big-heading {
   font-size: 30px;
   letter-spacing: 1px;
+}
+
+.number-badge {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #b1b1b1;
+  border-radius: 40px;
+  background-color: #151516;
+  font-family: Inconsolata, monospace;
+  color: #b1b1b1;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -1132,7 +1170,7 @@ a {
     font-size: 83px;
   }
 
-  .list {
+  .nav-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1323,7 +1361,7 @@ a {
     padding-left: 40px;
   }
 
-  .list {
+  .nav-list {
     font-size: 18px;
   }
 
