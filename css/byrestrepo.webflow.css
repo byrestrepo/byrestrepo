@@ -863,7 +863,10 @@ a {
   display: inline-block;
   padding: 3px 5px;
   background-color: #0e0e0f;
-  font-size: 17px;
+  font-family: Inconsolata, monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .number-badge {
@@ -940,7 +943,7 @@ a {
   top: auto;
   right: 0%;
   bottom: 0%;
-  z-index: 1;
+  z-index: 2;
   padding: 20px 40px;
 }
 
@@ -1349,7 +1352,7 @@ a {
     align-items: flex-start;
   }
 
-  .section.big-list {
+  .section.big-content {
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -1539,7 +1542,7 @@ a {
 
   .small-heading.information {
     background-position: 0% 3px;
-    line-height: 1.25;
+    line-height: 1.75;
   }
 
   .selected-works {
@@ -1592,7 +1595,7 @@ a {
     padding-left: 0px;
   }
 
-  .section.big-list {
+  .section.big-content {
     overflow: hidden;
     padding: 60px 40px;
   }
