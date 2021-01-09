@@ -1537,6 +1537,11 @@ a {
     font-size: 14px;
   }
 
+  .small-heading.information {
+    background-position: 0% 3px;
+    line-height: 1.25;
+  }
+
   .selected-works {
     height: auto;
     grid-template-areas: "selected-works-area";
@@ -1583,6 +1588,8 @@ a {
 
   .section.full-height {
     height: auto;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .section.big-list {
