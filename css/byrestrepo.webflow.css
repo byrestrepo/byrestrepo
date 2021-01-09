@@ -1708,6 +1708,12 @@ a {
     width: 100%;
   }
 
+  .nav-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-style: none;
+  }
+
   .text-frame {
     width: 100%;
     height: auto;
