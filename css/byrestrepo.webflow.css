@@ -881,6 +881,7 @@ a {
   width: 50%;
   padding: 20px;
   background-color: #151516;
+  color: #b1b1b1;
   font-size: 12px;
 }
 
@@ -1857,6 +1858,10 @@ a {
 }
 
 #w-node-0fd1726b2916-4167b805 {
+  grid-area: selected-work-1;
+}
+
+#w-node-15aebb55eb5d-4167b805 {
   grid-area: selected-work-1;
 }
 
